@@ -135,12 +135,12 @@ public class VelocityUtils
             useWebType = "vm/vue/v3";
         }
         List<String> templates = new ArrayList<String>();
-        templates.add("vm/java/domain.java.vm");
-        templates.add("vm/java/mapper.java.vm");
-        templates.add("vm/java/service.java.vm");
-        templates.add("vm/java/serviceImpl.java.vm");
-        templates.add("vm/java/controller.java.vm");
-        templates.add("vm/xml/mapper.xml.vm");
+        templates.add("vm/java/plus/domain.java.vm");
+        templates.add("vm/java/plus/mapper.java.vm");
+        templates.add("vm/java/plus/service.java.vm");
+        templates.add("vm/java/plus/serviceImpl.java.vm");
+        templates.add("vm/java/plus/controller.java.vm");
+        templates.add("vm/xml/plus/mapper.xml.vm");
         templates.add("vm/sql/sql.vm");
         templates.add("vm/js/api.js.vm");
         if (GenConstants.TPL_CRUD.equals(tplCategory))
